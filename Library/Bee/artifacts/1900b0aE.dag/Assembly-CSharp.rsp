@@ -352,8 +352,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Users/Coding Minds/Desktop/Unity/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/Coding Minds/Desktop/Unity/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Crouch.cs"
 "Assets/drag_and_drop.cs"
 "Assets/helo.cs"
+"Assets/IPickup.cs"
+"Assets/Jump.cs"
+"Assets/Look.cs"
+"Assets/MousePickup.cs"
+"Assets/Move.cs"
 -langversion:9.0
 /deterministic
 /optimize+
