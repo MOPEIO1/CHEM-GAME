@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Chemistry_Game.sln"
+    "dotnet.defaultSolution": "CHEM-GAME.sln"
 }

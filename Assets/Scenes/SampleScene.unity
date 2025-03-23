@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 316dd87f0803a6a40b0cadf92da8605f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -226,7 +226,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 92
   m_CollisionDetection: 0
 --- !u!64 &670000705
 MeshCollider:
@@ -262,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ef9f34f4d54314e9b834d337541fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hydrogen: {fileID: 0}
 --- !u!1 &679906224
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ef9f34f4d54314e9b834d337541fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hydrogen: {fileID: 0}
 --- !u!54 &966944579
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -618,7 +620,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 92
   m_CollisionDetection: 0
 --- !u!1001 &1021516185
 PrefabInstance:
@@ -704,15 +706,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6fddb15d559f83d4bbbae524736ac1f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4249356
+      value: 2.41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fddb15d559f83d4bbbae524736ac1f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.963778
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fddb15d559f83d4bbbae524736ac1f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3061278
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6fddb15d559f83d4bbbae524736ac1f3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -785,6 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ef9f34f4d54314e9b834d337541fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hydrogen: {fileID: 0}
 --- !u!64 &1268417766
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -832,7 +835,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 92
   m_CollisionDetection: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
