@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Jump.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\IPickup.cs" />
+    <Compile Include="Assets\Scripts\Subatomic.cs" />
     <Compile Include="Assets\Scripts\roamingNPC.cs" />
     <Compile Include="Assets\Scripts\MousePickup.cs" />
   </ItemGroup>

@@ -12,25 +12,24 @@ public class potScript : MonoBehaviour
     private bool hasSpawnedHelium = false; 
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("electron")) {
-            if (electronIDs.Contains(collision.gameObject.GetInstanceID())) {
-            }
-            else{
+            if ( !electronIDs.Contains(collision.gameObject.GetInstanceID())    ) {
                 electronIDs.Add(collision.gameObject.GetInstanceID());
-            } 
+                collision.gameObject.transform.localScale = new Vector3(20f, 20f, 20f);
+            }
         }
         if (collision.gameObject.CompareTag("proton")) {
-            if (protonIDs.Contains(collision.gameObject.GetInstanceID())) {
-            }
-            else{
+            if ( !protonIDs.Contains(collision.gameObject.GetInstanceID())) {
                 protonIDs.Add(collision.gameObject.GetInstanceID());
-            } 
+                collision.gameObject.transform.localScale = new Vector3(20f, 20f, 20f);
+
+            }
+            
         }
         if (collision.gameObject.CompareTag("neutron")) {
-            if (neutronIDs.Contains(collision.gameObject.GetInstanceID())) {
-            }
-            else{
+            if (!neutronIDs.Contains(collision.gameObject.GetInstanceID())) {
                 neutronIDs.Add(collision.gameObject.GetInstanceID());
-            } 
+                collision.gameObject.transform.localScale = new Vector3(20f, 20f, 20f);
+            }
         }
     }
     void Update(){

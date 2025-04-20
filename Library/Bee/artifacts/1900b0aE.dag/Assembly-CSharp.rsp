@@ -366,6 +366,7 @@
 "Assets/Scripts/MousePickup.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/roamingNPC.cs"
+"Assets/Scripts/Subatomic.cs"
 -langversion:9.0
 /deterministic
 /optimize+
