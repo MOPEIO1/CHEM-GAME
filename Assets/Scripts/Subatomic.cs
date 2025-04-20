@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Subatomic : MonoBehaviour
 {
+    public 
     // Start is called before the first frame update
     void Start()
     {

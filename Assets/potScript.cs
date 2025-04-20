@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class potScript : MonoBehaviour
 {
-    public GameObject Helium; 
+    [SerializeField]
+    private GameObject Helium; 
+    [SerializeField]
     public Transform spawnPoint; 
+    [SerializeField]
     public List<int> electronIDs = new List<int>(); 
+    [SerializeField]
     public List<int> protonIDs = new List<int>(); 
+    [SerializeField]
     public List<int> neutronIDs = new List<int>(); 
     private bool hasSpawnedHelium = false; 
     private void OnCollisionEnter(Collision collision){
@@ -42,5 +47,5 @@ public class potScript : MonoBehaviour
         Debug.Log("spawn helium");
         Vector3 spawnPosition = spawnPoint.position;
         Instantiate(Helium, spawnPoint.position, Quaternion.identity);
-}
+    }
 }
