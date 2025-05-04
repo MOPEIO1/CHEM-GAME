@@ -2079,6 +2079,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a3ea46ea744cc14098b454ce66d0331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hydrogen: {fileID: 5839309999640202214, guid: b49de56583a1c704cb2048f5f16ec451, type: 3}
+  Lithium: {fileID: 3013617029833195187, guid: 05b0d96f8f435b84c85af704bfb45796, type: 3}
+  Beryllium: {fileID: 7627302056649974878, guid: e7d6bea615e2c4b4bbd6621e05a12c20, type: 3}
   Helium: {fileID: 6479619177040963468, guid: e76330a0a74b0a64a86050d243099f31, type: 3}
   spawnPoint: {fileID: 1205373988}
   electronIDs: 
