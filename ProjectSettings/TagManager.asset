@@ -9,6 +9,8 @@ TagManager:
   - electron
   - neutron
   - Ground
+  - Workbench
+  - Rock
   layers:
   - Default
   - TransparentFX
