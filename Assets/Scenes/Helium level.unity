@@ -1698,6 +1698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   protonPrefab: {fileID: 6147275133390468105, guid: cfa833854c2edff4da824e2846dadf7c, type: 3}
   electronPrefab: {fileID: 6437953646658574861, guid: 17368d3f4c914674fac2b1e72a1b4860, type: 3}
+  neutronPrefab: {fileID: 4524052232021312377, guid: 44eeef377cca84142a5e4c31edd8527b, type: 3}
   spawnPoint: {fileID: 556968604}
 --- !u!1 &915265807
 GameObject:
@@ -1858,7 +1859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.42736274}
   m_AnchorMax: {x: 0.17172831, y: 1}
-  m_AnchoredPosition: {x: 0.13000488, y: 0.6190033}
+  m_AnchoredPosition: {x: 0.13000488, y: 0.61901855}
   m_SizeDelta: {x: 1.2293701, y: -1.2378998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &967192515
