@@ -12,5 +12,13 @@ public class WorkbenchScript : MonoBehaviour{
             Destroy(collision.gameObject);
             Instantiate(neutronPrefab, spawnPoint.position, Quaternion.identity);
         }
+        if (collision.gameObject.CompareTag("Apple")) {
+            Destroy(collision.gameObject);
+            Instantiate(protonPrefab, spawnPoint.position, Quaternion.identity);
+        }
+        if (collision.gameObject.CompareTag("Duck")) {
+            Destroy(collision.gameObject);
+            Instantiate(electronPrefab, spawnPoint.position, Quaternion.identity);
+        }
     }
 }
