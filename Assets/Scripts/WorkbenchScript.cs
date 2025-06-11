@@ -9,8 +9,22 @@ public class WorkbenchScript : MonoBehaviour{
 
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Rock")) {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Renderer>().enabled = false;
+            collision.gameObject.GetComponent<Collider>().enabled = false;
+            Destroy(collision.gameObject, 2f);
             Instantiate(neutronPrefab, spawnPoint.position, Quaternion.identity);
+        }
+        if (collision.gameObject.CompareTag("apple")) {
+            collision.gameObject.GetComponent<Renderer>().enabled = false;
+            collision.gameObject.GetComponent<Collider>().enabled = false;
+            Destroy(collision.gameObject, 2f);
+            Instantiate(protonPrefab, spawnPoint.position, Quaternion.identity);
+        }
+        if (collision.gameObject.CompareTag("duck")) {
+            collision.gameObject.GetComponent<Renderer>().enabled = false;
+            collision.gameObject.GetComponent<Collider>().enabled = false;
+            Destroy(collision.gameObject, 2f);
+            Instantiate(electronPrefab, spawnPoint.position, Quaternion.identity);
         }
     }
 }

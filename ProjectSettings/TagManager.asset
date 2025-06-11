@@ -11,6 +11,9 @@ TagManager:
   - Ground
   - Workbench
   - Rock
+  - apple
+  - duck
+  - Beryllium
   layers:
   - Default
   - TransparentFX
