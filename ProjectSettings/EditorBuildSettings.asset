@@ -5,16 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Helium Level.unity
-    guid: 97e93e96b905b434f82ce2e01a1efdaf
-  - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: 839d8408bee6ddc479510d6af2aec804
   - enabled: 1
     path: Assets/Scenes/Beryllium Level.unity
     guid: bcca3999db45dde44bf2d8387738f0f7
-  - enabled: 1
-    path: Assets/Scenes/Game Over.unity
-    guid: 49ca069a2abeefe4da5d58127944d12e
   m_configObjects: {}
